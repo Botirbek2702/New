@@ -1,0 +1,38 @@
+/* Umumiy stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .banner {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Responsiv dizayn */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+  
+    .banner {
+      padding: 10px;
+    }
+  }
+  
